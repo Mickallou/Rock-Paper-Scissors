@@ -83,6 +83,14 @@ function clearScore() {
     document.getElementById("tableScore").innerHTML = "";
 }
 
+function getDataFromLocalStorage() {
+    if (localStorage.getItem("user")) {
+        arrUser = JSON.parse(localStorage.getItem("user"));
+        printScore();
+    }
+}
+
+getDataFromLocalStorage();
 rock.addEventListener("click", () => { theGame("rock") });
 paper.addEventListener("click", () => { theGame("paper") });
 scissors.addEventListener("click", () => { theGame("scissors") });

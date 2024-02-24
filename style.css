@@ -129,3 +129,17 @@ tr:hover {
 #reste:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 768px) {
+    main .choices {
+        flex-direction: column;
+    }
+
+    main .choices button {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
