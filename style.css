@@ -142,4 +142,11 @@ tr:hover {
     footer {
         width: 100%;
     }
+
+    #reste {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        margin-top: 20px;
+    }
 }
