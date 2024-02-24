@@ -139,8 +139,14 @@ tr:hover {
         margin-bottom: 20px;
     }
 
+    main h2 {
+        font-size: 1rem;
+
+    }
+
     footer {
         width: 100%;
+        flex-direction: column;
     }
 
     #reste {
